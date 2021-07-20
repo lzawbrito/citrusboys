@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/citrusboys/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/citrusboys/static/js/main.91c9136b.chunk.js",
-    "main.js.map": "/citrusboys/static/js/main.91c9136b.chunk.js.map",
-    "runtime-main.js": "/citrusboys/static/js/runtime-main.43370925.js",
-    "runtime-main.js.map": "/citrusboys/static/js/runtime-main.43370925.js.map",
-    "static/js/2.832c60cd.chunk.js": "/citrusboys/static/js/2.832c60cd.chunk.js",
-    "static/js/2.832c60cd.chunk.js.map": "/citrusboys/static/js/2.832c60cd.chunk.js.map",
-    "static/js/3.6fe90a5e.chunk.js": "/citrusboys/static/js/3.6fe90a5e.chunk.js",
-    "static/js/3.6fe90a5e.chunk.js.map": "/citrusboys/static/js/3.6fe90a5e.chunk.js.map",
+    "main.css": "/citrusboys/static/css/main.e775fe64.chunk.css",
+    "main.js": "/citrusboys/static/js/main.c93ce5e2.chunk.js",
+    "main.js.map": "/citrusboys/static/js/main.c93ce5e2.chunk.js.map",
+    "runtime-main.js": "/citrusboys/static/js/runtime-main.2be5d974.js",
+    "runtime-main.js.map": "/citrusboys/static/js/runtime-main.2be5d974.js.map",
+    "static/js/2.eabac19d.chunk.js": "/citrusboys/static/js/2.eabac19d.chunk.js",
+    "static/js/2.eabac19d.chunk.js.map": "/citrusboys/static/js/2.eabac19d.chunk.js.map",
+    "static/js/3.36b49b6f.chunk.js": "/citrusboys/static/js/3.36b49b6f.chunk.js",
+    "static/js/3.36b49b6f.chunk.js.map": "/citrusboys/static/js/3.36b49b6f.chunk.js.map",
     "index.html": "/citrusboys/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/citrusboys/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.832c60cd.chunk.js.LICENSE.txt": "/citrusboys/static/js/2.832c60cd.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/citrusboys/static/media/logo.6ce24c58.svg"
+    "static/css/main.e775fe64.chunk.css.map": "/citrusboys/static/css/main.e775fe64.chunk.css.map",
+    "static/js/2.eabac19d.chunk.js.LICENSE.txt": "/citrusboys/static/js/2.eabac19d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/citrusboys/static/media/devul-sprite-sheet.d446fd08.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.43370925.js",
-    "static/js/2.832c60cd.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.91c9136b.chunk.js"
+    "static/js/runtime-main.2be5d974.js",
+    "static/js/2.eabac19d.chunk.js",
+    "static/css/main.e775fe64.chunk.css",
+    "static/js/main.c93ce5e2.chunk.js"
   ]
 }
