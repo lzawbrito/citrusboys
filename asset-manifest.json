@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/citrusboys/static/css/main.be2dea19.chunk.css",
-    "main.js": "/citrusboys/static/js/main.9de23633.chunk.js",
-    "main.js.map": "/citrusboys/static/js/main.9de23633.chunk.js.map",
+    "main.css": "/citrusboys/static/css/main.7b5422ee.chunk.css",
+    "main.js": "/citrusboys/static/js/main.6648f765.chunk.js",
+    "main.js.map": "/citrusboys/static/js/main.6648f765.chunk.js.map",
     "runtime-main.js": "/citrusboys/static/js/runtime-main.aebbac20.js",
     "runtime-main.js.map": "/citrusboys/static/js/runtime-main.aebbac20.js.map",
-    "static/js/2.e4663121.chunk.js": "/citrusboys/static/js/2.e4663121.chunk.js",
-    "static/js/2.e4663121.chunk.js.map": "/citrusboys/static/js/2.e4663121.chunk.js.map",
+    "static/js/2.baaa3940.chunk.js": "/citrusboys/static/js/2.baaa3940.chunk.js",
+    "static/js/2.baaa3940.chunk.js.map": "/citrusboys/static/js/2.baaa3940.chunk.js.map",
     "static/js/3.6623c671.chunk.js": "/citrusboys/static/js/3.6623c671.chunk.js",
     "static/js/3.6623c671.chunk.js.map": "/citrusboys/static/js/3.6623c671.chunk.js.map",
     "index.html": "/citrusboys/index.html",
-    "static/css/main.be2dea19.chunk.css.map": "/citrusboys/static/css/main.be2dea19.chunk.css.map",
-    "static/js/2.e4663121.chunk.js.LICENSE.txt": "/citrusboys/static/js/2.e4663121.chunk.js.LICENSE.txt",
+    "static/css/main.7b5422ee.chunk.css.map": "/citrusboys/static/css/main.7b5422ee.chunk.css.map",
+    "static/js/2.baaa3940.chunk.js.LICENSE.txt": "/citrusboys/static/js/2.baaa3940.chunk.js.LICENSE.txt",
     "static/media/App.css": "/citrusboys/static/media/x_bambi-webfont.21a96f90.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.aebbac20.js",
-    "static/js/2.e4663121.chunk.js",
-    "static/css/main.be2dea19.chunk.css",
-    "static/js/main.9de23633.chunk.js"
+    "static/js/2.baaa3940.chunk.js",
+    "static/css/main.7b5422ee.chunk.css",
+    "static/js/main.6648f765.chunk.js"
   ]
 }
