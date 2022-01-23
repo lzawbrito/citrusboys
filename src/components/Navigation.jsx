@@ -46,7 +46,6 @@ function makeNavItem(item) {
 
 const content = pages.map(makeNavItem)
 
-
 const NavigationToHide = (props) => {
 	const { location } = props;
 	if (location.pathname.match('entry')){

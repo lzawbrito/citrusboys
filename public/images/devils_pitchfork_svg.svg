@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.24919"
+   height="473.37927"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Devils Fork.svg">
+  <title
+     id="title3652">Devils Fork</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <filter
+       id="filter3626"
+       inkscape:label="Matte bevel"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft, pastel-colored, blurry bevel"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3628"
+         stdDeviation="1"
+         result="result6" />
+      <feComposite
+         id="feComposite3630"
+         in2="result6"
+         operator="in"
+         in="result6"
+         result="result7" />
+      <feGaussianBlur
+         id="feGaussianBlur3632"
+         stdDeviation="8"
+         result="result3"
+         in="result7" />
+      <feComposite
+         id="feComposite3634"
+         in2="result7"
+         operator="over"
+         result="result91" />
+      <feComposite
+         id="feComposite3636"
+         in2="result91"
+         operator="in"
+         in="result3"
+         result="result5" />
+      <feColorMatrix
+         id="feColorMatrix3638"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0 "
+         result="result4" />
+      <feSpecularLighting
+         id="feSpecularLighting3640"
+         surfaceScale="3"
+         specularConstant="2"
+         specularExponent="45"
+         in="result4"
+         result="result11">
+        <fePointLight
+           id="fePointLight3642"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3644"
+         in2="result4"
+         operator="arithmetic"
+         k1="1"
+         result="result10"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3646"
+         in2="result10"
+         operator="arithmetic"
+         k2="0.5"
+         k3="1"
+         in="result5"
+         result="result8"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3648"
+         in2="result8"
+         result="result9" />
+      <feBlend
+         id="feBlend3650"
+         in2="result9"
+         mode="normal" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="6.9188696"
+     inkscape:cy="244.51269"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Devils Fork</dc:title>
+        <dc:date>01</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-191.08113,-56.517839)">
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 207.12297,71.438061 c -3.42167,16.955617 -8.32417,30.772959 -15.34184,40.107709 l 15.88659,-1.90165 c -2.88905,43.51554 3.66911,65.83324 10.01829,100.52181 4.79902,22.53906 22.04536,31.23597 32.67449,37.38152 l 32.12974,-0.82455 c 12.10126,115.92642 23.52136,194.29944 31.17406,277.26012 10.12183,6.03073 19.87493,8.98085 27.80153,-3.32787 -13.0864,-74.00386 -26.36114,-146.37174 -33.04102,-276.02951 l 25.45914,-6.0689 c 14.58006,-1.86518 23.64644,-20.85531 25.74637,-37.32458 -0.0627,-36.02813 -4.9925,-65.0891 -13.94784,-108.10855 L 359.4644,90.466764 C 343.82708,80.252901 339.79183,68.650259 334.33455,57.217839 c -2.53712,12.38936 -6.18927,24.912188 -16.57246,38.240732 l 12.90786,-1.545081 c 5.29858,37.02123 11.44982,68.02263 10.41693,95.43839 0.58347,16.05371 -7.69015,25.98374 -16.88692,27.19985 l -19.38283,6.34871 c -6.25677,-35.02101 -9.0976,-74.09823 -11.99669,-125.463466 l 12.0338,-0.433318 C 286.96705,85.04343 283.58438,74.918209 275.75274,64.230142 269.21149,77.0988 267.82099,89.350909 254.21573,103.06514 l 14.77483,-2.7757 c 7.18082,50.06556 9.62485,85.66951 12.75189,123.35878 l -25.2982,-1.00033 c -9.07252,-0.43866 -19.35268,-13.35086 -24.89214,-31.2631 -6.41111,-27.83911 -7.99762,-34.98878 -9.10956,-84.51637 l 14.89368,-1.78278 C 223.10423,94.367842 216.59294,82.725868 207.12297,71.438061 z"
+       id="path2816"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

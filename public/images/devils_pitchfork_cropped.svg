@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="175.24919"
+   height="178.37927"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="devils_pitchfork_cropped.svg">
+  <title
+     id="title3652">Devils Fork</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 231.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 231.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 55.78739 : 1"
+       id="perspective10" />
+    <filter
+       id="filter3626"
+       inkscape:label="Matte bevel"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft, pastel-colored, blurry bevel"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3628"
+         stdDeviation="1"
+         result="result6" />
+      <feComposite
+         id="feComposite3630"
+         in2="result6"
+         operator="in"
+         in="result6"
+         result="result7" />
+      <feGaussianBlur
+         id="feGaussianBlur3632"
+         stdDeviation="8"
+         result="result3"
+         in="result7" />
+      <feComposite
+         id="feComposite3634"
+         in2="result7"
+         operator="over"
+         result="result91" />
+      <feComposite
+         id="feComposite3636"
+         in2="result91"
+         operator="in"
+         in="result3"
+         result="result5" />
+      <feColorMatrix
+         id="feColorMatrix3638"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0 "
+         result="result4" />
+      <feSpecularLighting
+         id="feSpecularLighting3640"
+         surfaceScale="3"
+         specularConstant="2"
+         specularExponent="45"
+         in="result4"
+         result="result11">
+        <fePointLight
+           id="fePointLight3642"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3644"
+         in2="result4"
+         operator="arithmetic"
+         k1="1"
+         result="result10"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3646"
+         in2="result10"
+         operator="arithmetic"
+         k2="0.5"
+         k3="1"
+         in="result5"
+         result="result8"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3648"
+         in2="result8"
+         result="result9" />
+      <feBlend
+         id="feBlend3650"
+         in2="result9"
+         mode="normal" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath854">
+      <rect
+         id="rect856"
+         width="183.01933"
+         height="206.34935"
+         x="184.13138"
+         y="62.360985"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.993366" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="16.798232"
+     inkscape:cy="188.56549"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2069"
+     inkscape:window-y="487"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Devils Fork</dc:title>
+        <dc:date>01</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-191.08113,-56.517839)">
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.39071;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 205.3549,82.444077 c -3.45948,16.548571 -8.41614,30.034203 -15.51135,39.144863 l 16.06212,-1.856 c -2.92097,42.47088 3.70964,64.25281 10.12897,98.10863 4.85204,21.99797 22.28893,30.4861 33.0355,36.48412 l 32.48473,-0.80476 c 12.23496,113.14343 23.78123,189.63499 31.51848,270.60407 10.23366,5.88595 20.09452,8.76525 28.1087,-3.24798 -13.23099,-72.22729 -26.65239,-142.85786 -33.40608,-269.403 l 25.74043,-5.92321 c 14.74115,-1.8204 23.9077,-20.35464 26.03083,-36.42854 -0.0634,-35.16322 -5.04766,-63.52654 -14.10194,-105.51324 l 13.93419,-2.59306 c -15.81009,-9.968667 -19.88993,-21.29277 -25.4075,-32.450737 -2.56515,12.091934 -6.25765,24.314133 -16.75556,37.322707 l 13.05047,-1.50799 c 5.35712,36.13248 11.57632,66.38964 10.53202,93.14724 0.58992,15.66832 -7.77511,25.35996 -17.07349,26.54688 l -19.59699,6.1963 c -6.32589,-34.18028 -9.19811,-72.31939 -12.12923,-122.45152 l 12.16675,-0.42292 C 286.08114,95.722828 282.66109,85.840678 274.74293,75.409195 268.1294,87.968921 266.72354,99.926899 252.96796,113.3119 l 14.93807,-2.70907 c 7.26016,48.86366 9.73119,83.61289 12.89278,120.39737 l -25.57771,-0.97632 c -9.17275,-0.42813 -19.56649,-13.03035 -25.16716,-30.51258 -6.48194,-27.17079 -8.08598,-34.14882 -9.2102,-82.48742 l 15.05823,-1.73999 C 221.51273,104.82339 214.9295,93.460902 205.3549,82.444077 Z"
+       id="path2816"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
+       clip-path="url(#clipPath854)"
+       transform="matrix(1,0,0,0.82982236,3,11.66827)" />
+  </g>
+</svg>

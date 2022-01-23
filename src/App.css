@@ -1,6 +1,52 @@
+html {
+    overflow-y: scroll;
+  }
+
+:root {
+  --citrus-bone: rgb(245,248,207);
+  --citrus-red: rgb(198,23,23);
+  --citrus-bright-red: rgb(239, 7, 7);
+  --footer-height: 40px;
+  --header-height: 60px
+}
+
+@font-face {
+    font-family: 'barloesius-schriftregular';
+    font-style: normal;
+    /* font-weight: 400; */
+    src: local('barloesius-schriftregular'), local('barloesius-schriftregular'),
+    url('./fonts/barloesius-schrift/barloesius-schrift.regular-webfont.woff')
+    format('woff'); 
+  }
+@font-face {
+    font-family: 'drywhiteboardmarker-regular-webfont';
+    font-style: normal;
+    /* font-weight: 400; */
+    src: local('drywhiteboardmarker-regular-webfont'),
+    local('drywhiteboardmarker-regular-webfont'),
+    url('./fonts/webfont-kits/drywhiteboardmarker-regular-webfont.woff')
+    format('woff'); 
+  }
+
+@font-face {
+    font-family: 'x_bambi-webfont';
+    font-style: normal;
+    /* font-weight: 400; */
+    src: local('x_bambi-webfont'),
+    local('x_bambi-webfont'),
+    url('./fonts/webfont-kits/x_bambi-webfont.woff')
+    format('woff'); 
+  }
+
 body{
     background-color: black;
     margin: 0;
+}
+
+.App body {
+  background-color: transparent;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .center {
@@ -9,19 +55,55 @@ body{
   display: block;
 }
 
-p, .navSelected, .navUnselected {
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+.navSelected, .navUnselected {
+  font-size: 36px;
+  font-family: 'barloesius-schriftregular';
+  color: var(--citrus-bone);
+  text-decoration: none;
+}
+
+p {
+  z-index: 2;
+  font-family: 'x_bambi-webfont';
+  font-size: 18px;
+  color: rgb(245, 248, 207);
+  animation-name: p-color;
+  animation-iteration-count: infinite;
+  animation-duration: 1.75s;
+  animation-direction: alternate;
+}
+
+@keyframes p-color{
+  from {color:var(--citrus-bone);}
+  to {color:rgb(210, 212, 179);}
 }
 
 .navSelected {
-  color: red
+  text-decoration: underline;
+  color: var(--citrus-red);
+  animation-name: selected-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
+@keyframes selected-color {
+  from {color:var(--citrus-bone);}
+  to {color: var(--citrus-red);}
+}
+
+/* The element to apply the animation to */
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} */
 .nav-background {
   width: 100%;
-  position: fixed;
-  background-color: rgba(100, 0, 0, 0.9)
+  position: absolute;
+  background-color: rgba(53, 0, 0, 0.9)
 }
 
 .nav-container {
@@ -31,11 +113,20 @@ p, .navSelected, .navUnselected {
 
 .nav-item {
   margin: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.page-content{
-  padding-top: 50px;
+#page-container {
+  position: relative; 
+  min-height: 100vh
 }
+
+#content-wrap { 
+  padding-top: var(--header-height);
+  padding-bottom: var(--footer-height)
+}
+
 
 .center p {
   text-align: center;
@@ -64,3 +155,84 @@ a {
     to {background-position: 59760px;}
 }
 
+.parallax-image {
+  z-index: -1;
+  width: 500px;
+  /* margin-left: auto; 
+  margin-right: auto; */
+  display: block;
+}
+
+.parallax-image-container{
+  z-index: -1;
+  position: absolute;
+  left: -40%;
+  /* top: 1100px; */
+  bottom: 0px;
+  /* padding-bottom: 0;
+  margin-bottom: 0; */
+}
+
+.hidden {
+  opacity: 0.0;
+}
+
+.inner-parallax{
+  transform: translate3d(0, -100%, 0);
+}
+
+.socials {
+  position: absolute;
+  background: var(--citrus-red);
+  display: flex;
+  height: var(--footer-height);
+  bottom: 0;
+  width: 100%;
+  justify-content: center;  
+}
+
+.socials a {
+  font-family: 'barloesius-schriftregular';
+  color: var(--citrus-bone);
+  margin: 10px
+}
+
+.staff-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.bio { 
+  width: 300px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.bio img { 
+  width: inherit
+}
+
+.bio-name { 
+  font-family: 'barloesius-schriftregular';
+  font-size: 36px;
+  color: var(--citrus-bone)
+}
+
+.bio p {
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.bio-socials-container { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio-socials-container a {
+  color: var(--citrus-red);
+  font-family: 'barloesius-schriftregular';
+  font-size: 16px;
+}
